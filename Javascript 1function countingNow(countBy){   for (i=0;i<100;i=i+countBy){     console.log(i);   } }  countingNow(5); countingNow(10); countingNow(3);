@@ -1,0 +1,9 @@
+function countingNow(countBy){
+  for (i=0;i<100;i=i+countBy){
+    console.log(i);
+  }
+}
+
+countingNow(5);
+countingNow(10);
+countingNow(3);
